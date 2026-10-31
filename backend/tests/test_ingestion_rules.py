@@ -129,7 +129,7 @@ def _numbers_in(value) -> set[float]:
     if isinstance(value, dict):
         for nested in value.values():
             found |= _numbers_in(nested)
-    elif isinstance(value, (int, float)) and not isinstance(value, bool):
+    elif isinstance(value, int | float) and not isinstance(value, bool):
         found.add(round(float(value), 1))
     return found
 
