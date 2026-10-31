@@ -58,6 +58,8 @@ education/
 india/
 india-maps-data/
 meteocons/
+lottie/
+frontend/public/lottie/
 
 # Standalone large assets & redundant files in root
 *.zip
