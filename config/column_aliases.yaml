@@ -1,0 +1,59 @@
+# Alias dictionary for the column-mapping wizard. Fuzzy matching fills the gaps;
+# the uploaded header is never trusted blindly and the operator confirms the mapping.
+fields:
+  name:
+    label: "Student name"
+    required: true
+    aliases: [student name, name of candidate, name of student, candidate name, stu. name, full name, student, name]
+  dob:
+    label: "Date of birth"
+    required: true
+    aliases: [date of birth, dob, d.o.b, d o b, date birth, birth date, student dob, date of birth dd mm yyyy]
+  apaar_id:
+    label: "APAAR ID"
+    required: false
+    aliases: [apaar id, apaar no, apaar, apaar number, student apaar id, student apaar, apaar identifier]
+  apaar_status:
+    label: "APAAR status"
+    required: false
+    aliases: [apaar status, apaar state, id status, apaar consent status]
+  programme:
+    label: "Programme / course"
+    required: true
+    aliases: [programme, program, course, course code, branch, course name, programme name, trade]
+  seat_category:
+    label: "Seat category"
+    required: true
+    aliases: [seat category, category, quota, seat type, admission category, seat]
+  admission_date:
+    label: "Admission date"
+    required: true
+    aliases: [admission date, date of admission, doa, admitted on, admission dt, date admission]
+  admission_mode:
+    label: "Admission mode"
+    required: false
+    aliases: [admission mode, mode of admission, allotment, admission type, counselling mode]
+  gender:
+    label: "Gender"
+    required: false
+    aliases: [gender, sex, student gender]
+  phone:
+    label: "Phone"
+    required: false
+    aliases: [phone, mobile, mobile no, contact, contact no, phone number]
+  email:
+    label: "Email"
+    required: false
+    aliases: [email, email id, e mail, student email]
+  nationality:
+    label: "Nationality"
+    required: false
+    aliases: [nationality, country, citizenship]
+  qualifying_exam_pct:
+    label: "Qualifying exam %"
+    required: false
+    aliases: [qualifying exam pct, qualifying exam percentage, exam percentage, percentage, marks, qualifying marks, pcm percentage]
+  remarks:
+    label: "Remarks"
+    required: false
+    aliases: [remarks, remark, notes, note, comment, comments, dual degree note]

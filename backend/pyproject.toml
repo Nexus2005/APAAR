@@ -1,0 +1,20 @@
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+src = ["app", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "PERF", "RUF"]
+ignore = [
+  "B008",   # FastAPI's Depends() in defaults is the framework idiom
+  "DTZ003", # naive UTC timestamps are intentional in this prototype schema
+  "PERF401", # nested conditional loops read better than forced comprehensions
+]
+
+[tool.ruff.lint.isort]
+known-first-party = ["app", "scripts"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+addopts = "-q"

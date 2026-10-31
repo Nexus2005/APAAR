@@ -1,0 +1,77 @@
+# ==============================================================================
+# Security & Confidential Data
+# ==============================================================================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.cert
+*.pfx
+
+# Database & runtime storage
+data/app.db
+data/app.db*
+*.sqlite
+*.sqlite3
+
+# ==============================================================================
+# Python & Virtual Environments
+# ==============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+ENV/
+.pytest_cache/
+.ruff_cache/
+
+# ==============================================================================
+# Frontend & Dependencies
+# ==============================================================================
+node_modules/
+frontend/node_modules/
+frontend/dist/
+.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ==============================================================================
+# OS & Editor Metadata
+# ==============================================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# ==============================================================================
+# Other Standalone Repositories & External Project Dumps
+# ==============================================================================
+apaar-integrity-platform/
+SIH-2K26-2/
+dedupe/
+education/
+india/
+india-maps-data/
+meteocons/
+
+# Standalone large assets & redundant files in root
+*.zip
+*.geojson
+/*.svg
+/*.webp
+/*.jpg
+/*.png
+!images/
+AGENTS*.md
+01-BLUEPRINT.md
+02-PHASE-PLAN.md
+03-REUSE-AND-APIS*.md
+
+# Test & Playwright Reports
+test-results/
+playwright-report/

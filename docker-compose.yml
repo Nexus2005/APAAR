@@ -1,0 +1,36 @@
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: apaar
+      POSTGRES_PASSWORD: apaar
+      POSTGRES_DB: apaar
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U apaar -d apaar"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  app:
+    build: .
+    environment:
+      APP_ENV: development
+      DATABASE_URL: postgresql+psycopg://apaar:apaar@db:5432/apaar
+      SESSION_SECRET: dev-session-secret-change-me-please
+      IDENTIFIER_HMAC_KEY: dev-hmac-key-change-me-0123456789
+      IDENTIFIER_ENCRYPTION_KEY: dev-fernet-key-change-me
+      PUBLIC_BASE_URL: http://localhost:8000
+      DEMO_MODE: "true"
+      SEED_ON_STARTUP: "true"
+      LLM_PROVIDER: none
+    ports:
+      - "8000:8000"
+    depends_on:
+      db:
+        condition: service_healthy
+    restart: unless-stopped
+
+volumes:
+  pgdata:

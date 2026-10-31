@@ -1,0 +1,1040 @@
+{
+  "academic_year": "2026-27",
+  "cross_pairs": [
+    {
+      "apaar_id": "853287101226",
+      "institution_a": "SYN-MH-001",
+      "institution_b": "SYN-KA-006",
+      "whitelisted": true
+    },
+    {
+      "apaar_id": "799534283644",
+      "institution_a": "SYN-MH-002",
+      "institution_b": "SYN-TN-007",
+      "whitelisted": true
+    },
+    {
+      "apaar_id": "405302146566",
+      "institution_a": "SYN-MH-003",
+      "institution_b": "SYN-TN-008",
+      "whitelisted": true
+    },
+    {
+      "apaar_id": "871120754527",
+      "institution_a": "SYN-KA-004",
+      "institution_b": "SYN-TN-009",
+      "whitelisted": true
+    },
+    {
+      "apaar_id": "949690333736",
+      "institution_a": "SYN-KA-005",
+      "institution_b": "SYN-UP-010",
+      "whitelisted": true
+    },
+    {
+      "apaar_id": "932033192227",
+      "institution_a": "SYN-KA-006",
+      "institution_b": "SYN-UP-011",
+      "whitelisted": false
+    },
+    {
+      "apaar_id": "719102312110",
+      "institution_a": "SYN-TN-007",
+      "institution_b": "SYN-UP-012",
+      "whitelisted": false
+    },
+    {
+      "apaar_id": "760571219881",
+      "institution_a": "SYN-TN-008",
+      "institution_b": "SYN-MH-001",
+      "whitelisted": false
+    },
+    {
+      "apaar_id": "805642045657",
+      "institution_a": "SYN-TN-009",
+      "institution_b": "SYN-MH-002",
+      "whitelisted": false
+    },
+    {
+      "apaar_id": "476433872205",
+      "institution_a": "SYN-UP-010",
+      "institution_b": "SYN-MH-003",
+      "whitelisted": false
+    },
+    {
+      "apaar_id": "363705004933",
+      "institution_a": "SYN-UP-011",
+      "institution_b": "SYN-KA-004",
+      "whitelisted": false
+    },
+    {
+      "apaar_id": "497356152665",
+      "institution_a": "SYN-UP-012",
+      "institution_b": "SYN-KA-005",
+      "whitelisted": false
+    },
+    {
+      "apaar_id": "797703482477",
+      "institution_a": "SYN-MH-001",
+      "institution_b": "SYN-KA-006",
+      "whitelisted": false
+    },
+    {
+      "apaar_id": "302027588425",
+      "institution_a": "SYN-MH-002",
+      "institution_b": "SYN-TN-007",
+      "whitelisted": false
+    },
+    {
+      "apaar_id": "364510463681",
+      "institution_a": "SYN-MH-003",
+      "institution_b": "SYN-TN-008",
+      "whitelisted": false
+    },
+    {
+      "apaar_id": "994523219416",
+      "institution_a": "SYN-KA-004",
+      "institution_b": "SYN-TN-009",
+      "whitelisted": false
+    },
+    {
+      "apaar_id": "964208656756",
+      "institution_a": "SYN-KA-005",
+      "institution_b": "SYN-UP-010",
+      "whitelisted": false
+    },
+    {
+      "apaar_id": "990833506158",
+      "institution_a": "SYN-KA-006",
+      "institution_b": "SYN-UP-011",
+      "whitelisted": false
+    },
+    {
+      "apaar_id": "460508018498",
+      "institution_a": "SYN-TN-007",
+      "institution_b": "SYN-UP-012",
+      "whitelisted": false
+    },
+    {
+      "apaar_id": "536875092632",
+      "institution_a": "SYN-TN-008",
+      "institution_b": "SYN-MH-001",
+      "whitelisted": false
+    },
+    {
+      "apaar_id": "485535952056",
+      "institution_a": "SYN-TN-009",
+      "institution_b": "SYN-MH-002",
+      "whitelisted": false
+    },
+    {
+      "apaar_id": "446488499795",
+      "institution_a": "SYN-UP-010",
+      "institution_b": "SYN-MH-003",
+      "whitelisted": false
+    },
+    {
+      "apaar_id": "358901649281",
+      "institution_a": "SYN-UP-011",
+      "institution_b": "SYN-KA-004",
+      "whitelisted": false
+    },
+    {
+      "apaar_id": "357806190223",
+      "institution_a": "SYN-UP-012",
+      "institution_b": "SYN-KA-005",
+      "whitelisted": false
+    },
+    {
+      "apaar_id": "720585277221",
+      "institution_a": "SYN-MH-001",
+      "institution_b": "SYN-KA-006",
+      "whitelisted": false
+    },
+    {
+      "apaar_id": "216761847230",
+      "institution_a": "SYN-MH-002",
+      "institution_b": "SYN-TN-007",
+      "whitelisted": false
+    },
+    {
+      "apaar_id": "867428604765",
+      "institution_a": "SYN-MH-003",
+      "institution_b": "SYN-TN-008",
+      "whitelisted": false
+    },
+    {
+      "apaar_id": "850448183219",
+      "institution_a": "SYN-KA-004",
+      "institution_b": "SYN-TN-009",
+      "whitelisted": false
+    },
+    {
+      "apaar_id": "396893135030",
+      "institution_a": "SYN-KA-005",
+      "institution_b": "SYN-UP-010",
+      "whitelisted": false
+    },
+    {
+      "apaar_id": "469131196425",
+      "institution_a": "SYN-KA-006",
+      "institution_b": "SYN-UP-011",
+      "whitelisted": false
+    },
+    {
+      "apaar_id": "907955151229",
+      "institution_a": "SYN-TN-007",
+      "institution_b": "SYN-UP-012",
+      "whitelisted": false
+    },
+    {
+      "apaar_id": "644889669972",
+      "institution_a": "SYN-TN-008",
+      "institution_b": "SYN-MH-001",
+      "whitelisted": false
+    },
+    {
+      "apaar_id": "666621591832",
+      "institution_a": "SYN-TN-009",
+      "institution_b": "SYN-MH-002",
+      "whitelisted": false
+    },
+    {
+      "apaar_id": "837311804674",
+      "institution_a": "SYN-UP-010",
+      "institution_b": "SYN-MH-003",
+      "whitelisted": false
+    },
+    {
+      "apaar_id": "565618335974",
+      "institution_a": "SYN-UP-011",
+      "institution_b": "SYN-KA-004",
+      "whitelisted": false
+    }
+  ],
+  "files": [
+    {
+      "filename": "SYN-MH-001_admissions_2026-27.csv",
+      "format": "csv",
+      "headers": [
+        "Student Name",
+        "Date of Birth",
+        "APAAR ID",
+        "APAAR Status",
+        "Programme",
+        "Seat Category",
+        "Admission Date",
+        "Mode of Admission",
+        "Gender",
+        "Mobile",
+        "Email",
+        "Nationality",
+        "Qualifying Exam %",
+        "Remarks"
+      ],
+      "institution_code": "SYN-MH-001",
+      "institution_name": "Sahyadri Institute of Technology",
+      "rows": 129
+    },
+    {
+      "filename": "SYN-MH-002_admissions_2026-27.csv",
+      "format": "csv",
+      "headers": [
+        "Name of Candidate",
+        "DOB",
+        "APAAR No",
+        "APAAR Status",
+        "Course",
+        "Quota",
+        "Date of Admission",
+        "Admission Mode",
+        "Sex",
+        "Contact No",
+        "E Mail",
+        "Country",
+        "Marks",
+        "Remarks"
+      ],
+      "institution_code": "SYN-MH-002",
+      "institution_name": "Deccan College of Engineering",
+      "rows": 136
+    },
+    {
+      "filename": "SYN-MH-003_admissions_2026-27.csv",
+      "format": "csv",
+      "headers": [
+        "Stu. Name",
+        "D.O.B",
+        "Student APAAR Id",
+        "Id Status",
+        "Program",
+        "Seat Type",
+        "Admission Dt",
+        "Mode",
+        "Gender",
+        "Phone",
+        "Email Id",
+        "Nationality",
+        "Percentage",
+        "Remarks"
+      ],
+      "institution_code": "SYN-MH-003",
+      "institution_name": "Vidarbha Technical University",
+      "rows": 133
+    },
+    {
+      "filename": "SYN-KA-004_admissions_2026-27.xlsx",
+      "format": "xlsx",
+      "headers": [
+        "Candidate Name",
+        "Birth Date",
+        "Student APAAR",
+        "APAAR Consent Status",
+        "Programme Name",
+        "Admission Category",
+        "Admitted On",
+        "Admission Mode",
+        "Student Gender",
+        "Mobile No",
+        "Student Email",
+        "Nationality",
+        "Qualifying Exam Percentage",
+        "Remarks"
+      ],
+      "institution_code": "SYN-KA-004",
+      "institution_name": "Cauvery Institute of Science & Technology",
+      "rows": 102
+    },
+    {
+      "filename": "SYN-KA-005_admissions_2026-27.csv",
+      "format": "csv",
+      "headers": [
+        "Full Name",
+        "Date Birth",
+        "APAAR Identifier",
+        "APAAR Status",
+        "Branch",
+        "Seat",
+        "DOA",
+        "Mode",
+        "Sex",
+        "Contact",
+        "Email",
+        "Country",
+        "Exam Percentage",
+        "Remarks"
+      ],
+      "institution_code": "SYN-KA-005",
+      "institution_name": "Malnad School of Engineering",
+      "rows": 194
+    },
+    {
+      "filename": "SYN-KA-006_admissions_2026-27.csv",
+      "format": "csv",
+      "headers": [
+        "Student Name",
+        "Date of Birth",
+        "APAAR ID",
+        "APAAR Status",
+        "Programme",
+        "Seat Category",
+        "Admission Date",
+        "Mode of Admission",
+        "Gender",
+        "Mobile",
+        "Email",
+        "Nationality",
+        "Qualifying Exam %",
+        "Remarks"
+      ],
+      "institution_code": "SYN-KA-006",
+      "institution_name": "Karavali Institute of Technology",
+      "rows": 129
+    },
+    {
+      "filename": "SYN-TN-007_admissions_2026-27.csv",
+      "format": "csv",
+      "headers": [
+        "Name of Candidate",
+        "DOB",
+        "APAAR No",
+        "APAAR Status",
+        "Course",
+        "Quota",
+        "Date of Admission",
+        "Admission Mode",
+        "Sex",
+        "Contact No",
+        "E Mail",
+        "Country",
+        "Marks",
+        "Remarks"
+      ],
+      "institution_code": "SYN-TN-007",
+      "institution_name": "Marina College of Engineering",
+      "rows": 105
+    },
+    {
+      "filename": "SYN-TN-008_admissions_2026-27.csv",
+      "format": "csv",
+      "headers": [
+        "Stu. Name",
+        "D.O.B",
+        "Student APAAR Id",
+        "Id Status",
+        "Program",
+        "Seat Type",
+        "Admission Dt",
+        "Mode",
+        "Gender",
+        "Phone",
+        "Email Id",
+        "Nationality",
+        "Percentage",
+        "Remarks"
+      ],
+      "institution_code": "SYN-TN-008",
+      "institution_name": "Kovai Institute of Technology",
+      "rows": 141
+    },
+    {
+      "filename": "SYN-TN-009_admissions_2026-27.xlsx",
+      "format": "xlsx",
+      "headers": [
+        "Candidate Name",
+        "Birth Date",
+        "Student APAAR",
+        "APAAR Consent Status",
+        "Programme Name",
+        "Admission Category",
+        "Admitted On",
+        "Admission Mode",
+        "Student Gender",
+        "Mobile No",
+        "Student Email",
+        "Nationality",
+        "Qualifying Exam Percentage",
+        "Remarks"
+      ],
+      "institution_code": "SYN-TN-009",
+      "institution_name": "Vaigai Technical Campus",
+      "rows": 121
+    },
+    {
+      "filename": "SYN-UP-010_admissions_2026-27.csv",
+      "format": "csv",
+      "headers": [
+        "Full Name",
+        "Date Birth",
+        "APAAR Identifier",
+        "APAAR Status",
+        "Branch",
+        "Seat",
+        "DOA",
+        "Mode",
+        "Sex",
+        "Contact",
+        "Email",
+        "Country",
+        "Exam Percentage",
+        "Remarks"
+      ],
+      "institution_code": "SYN-UP-010",
+      "institution_name": "Gomti Institute of Technology",
+      "rows": 128
+    },
+    {
+      "filename": "SYN-UP-011_admissions_2026-27.csv",
+      "format": "csv",
+      "headers": [
+        "Student Name",
+        "Date of Birth",
+        "APAAR ID",
+        "APAAR Status",
+        "Programme",
+        "Seat Category",
+        "Admission Date",
+        "Mode of Admission",
+        "Gender",
+        "Mobile",
+        "Email",
+        "Nationality",
+        "Qualifying Exam %",
+        "Remarks"
+      ],
+      "institution_code": "SYN-UP-011",
+      "institution_name": "Yamuna College of Engineering",
+      "rows": 151
+    },
+    {
+      "filename": "SYN-UP-012_admissions_2026-27.csv",
+      "format": "csv",
+      "headers": [
+        "Name of Candidate",
+        "DOB",
+        "APAAR No",
+        "APAAR Status",
+        "Course",
+        "Quota",
+        "Date of Admission",
+        "Admission Mode",
+        "Sex",
+        "Contact No",
+        "E Mail",
+        "Country",
+        "Marks",
+        "Remarks"
+      ],
+      "institution_code": "SYN-UP-012",
+      "institution_name": "Ganga Technical Institute",
+      "rows": 183
+    }
+  ],
+  "fuzzy_pairs": [
+    {
+      "institution_a": "SYN-MH-003",
+      "institution_b": "SYN-TN-008",
+      "name": "Indali Divan"
+    },
+    {
+      "institution_a": "SYN-KA-004",
+      "institution_b": "SYN-TN-009",
+      "name": "Y. Jain"
+    },
+    {
+      "institution_a": "SYN-KA-005",
+      "institution_b": "SYN-UP-010",
+      "name": "  Qadim  Prakash "
+    },
+    {
+      "institution_a": "SYN-KA-006",
+      "institution_b": "SYN-UP-011",
+      "name": "  Omaja  Subramanian "
+    },
+    {
+      "institution_a": "SYN-TN-007",
+      "institution_b": "SYN-UP-012",
+      "name": "Wishi Iyengar"
+    },
+    {
+      "institution_a": "SYN-TN-008",
+      "institution_b": "SYN-MH-001",
+      "name": "  Rudra  Sura "
+    },
+    {
+      "institution_a": "SYN-TN-009",
+      "institution_b": "SYN-MH-002",
+      "name": "  Wyatt  Hayer "
+    },
+    {
+      "institution_a": "SYN-UP-010",
+      "institution_b": "SYN-MH-003",
+      "name": "Bimala Manne"
+    }
+  ],
+  "identities": {
+    "dob_mismatch": 12,
+    "inactive": 12,
+    "name_mismatch": 15,
+    "registry_size": 1349,
+    "unknown_valid_format": 10
+  },
+  "institutions": [
+    {
+      "city": "Pune",
+      "code": "SYN-MH-001",
+      "name": "Sahyadri Institute of Technology",
+      "region": "West",
+      "short_name": "SIT Pune",
+      "state": "Maharashtra"
+    },
+    {
+      "city": "Mumbai",
+      "code": "SYN-MH-002",
+      "name": "Deccan College of Engineering",
+      "region": "West",
+      "short_name": "DCE Mumbai",
+      "state": "Maharashtra"
+    },
+    {
+      "city": "Nagpur",
+      "code": "SYN-MH-003",
+      "name": "Vidarbha Technical University",
+      "region": "West",
+      "short_name": "VTU Nagpur",
+      "state": "Maharashtra"
+    },
+    {
+      "city": "Bengaluru",
+      "code": "SYN-KA-004",
+      "name": "Cauvery Institute of Science & Technology",
+      "region": "South",
+      "short_name": "CIST Bengaluru",
+      "state": "Karnataka"
+    },
+    {
+      "city": "Mysuru",
+      "code": "SYN-KA-005",
+      "name": "Malnad School of Engineering",
+      "region": "South",
+      "short_name": "MSE Mysuru",
+      "state": "Karnataka"
+    },
+    {
+      "city": "Mangaluru",
+      "code": "SYN-KA-006",
+      "name": "Karavali Institute of Technology",
+      "region": "South",
+      "short_name": "KIT Mangaluru",
+      "state": "Karnataka"
+    },
+    {
+      "city": "Chennai",
+      "code": "SYN-TN-007",
+      "name": "Marina College of Engineering",
+      "region": "South",
+      "short_name": "MCE Chennai",
+      "state": "Tamil Nadu"
+    },
+    {
+      "city": "Coimbatore",
+      "code": "SYN-TN-008",
+      "name": "Kovai Institute of Technology",
+      "region": "South",
+      "short_name": "KIT Coimbatore",
+      "state": "Tamil Nadu"
+    },
+    {
+      "city": "Madurai",
+      "code": "SYN-TN-009",
+      "name": "Vaigai Technical Campus",
+      "region": "South",
+      "short_name": "VTC Madurai",
+      "state": "Tamil Nadu"
+    },
+    {
+      "city": "Lucknow",
+      "code": "SYN-UP-010",
+      "name": "Gomti Institute of Technology",
+      "region": "North",
+      "short_name": "GIT Lucknow",
+      "state": "Uttar Pradesh"
+    },
+    {
+      "city": "Noida",
+      "code": "SYN-UP-011",
+      "name": "Yamuna College of Engineering",
+      "region": "North",
+      "short_name": "YCE Noida",
+      "state": "Uttar Pradesh"
+    },
+    {
+      "city": "Kanpur",
+      "code": "SYN-UP-012",
+      "name": "Ganga Technical Institute",
+      "region": "North",
+      "short_name": "GTI Kanpur",
+      "state": "Uttar Pradesh"
+    }
+  ],
+  "note": "All data is SYNTHETIC and generated for a prototype. Not official.",
+  "programmes": [
+    {
+      "approved_intake": 54,
+      "code": "MEC",
+      "discipline_group": "Engineering",
+      "duration_years": 4,
+      "institution_code": "SYN-MH-001",
+      "level": "UG",
+      "name": "B.Tech Mechanical Engineering",
+      "shift": "1"
+    },
+    {
+      "approved_intake": 66,
+      "code": "CSE",
+      "discipline_group": "Engineering",
+      "duration_years": 4,
+      "institution_code": "SYN-MH-001",
+      "level": "UG",
+      "name": "B.Tech Computer Science & Engineering",
+      "shift": "1"
+    },
+    {
+      "approved_intake": 54,
+      "code": "ECE",
+      "discipline_group": "Engineering",
+      "duration_years": 4,
+      "institution_code": "SYN-MH-002",
+      "level": "UG",
+      "name": "B.Tech Electronics & Communication",
+      "shift": "1"
+    },
+    {
+      "approved_intake": 54,
+      "code": "CSE",
+      "discipline_group": "Engineering",
+      "duration_years": 4,
+      "institution_code": "SYN-MH-002",
+      "level": "UG",
+      "name": "B.Tech Computer Science & Engineering",
+      "shift": "1"
+    },
+    {
+      "approved_intake": 72,
+      "code": "MEC",
+      "discipline_group": "Engineering",
+      "duration_years": 4,
+      "institution_code": "SYN-MH-002",
+      "level": "UG",
+      "name": "B.Tech Mechanical Engineering",
+      "shift": "1"
+    },
+    {
+      "approved_intake": 60,
+      "code": "CSE",
+      "discipline_group": "Engineering",
+      "duration_years": 4,
+      "institution_code": "SYN-MH-003",
+      "level": "UG",
+      "name": "B.Tech Computer Science & Engineering",
+      "shift": "1"
+    },
+    {
+      "approved_intake": 60,
+      "code": "AIML",
+      "discipline_group": "Engineering",
+      "duration_years": 4,
+      "institution_code": "SYN-MH-003",
+      "level": "UG",
+      "name": "B.Tech Artificial Intelligence & ML",
+      "shift": "1"
+    },
+    {
+      "approved_intake": 54,
+      "code": "CIV",
+      "discipline_group": "Engineering",
+      "duration_years": 4,
+      "institution_code": "SYN-MH-003",
+      "level": "UG",
+      "name": "B.Tech Civil Engineering",
+      "shift": "1"
+    },
+    {
+      "approved_intake": 72,
+      "code": "AIML",
+      "discipline_group": "Engineering",
+      "duration_years": 4,
+      "institution_code": "SYN-KA-004",
+      "level": "UG",
+      "name": "B.Tech Artificial Intelligence & ML",
+      "shift": "1"
+    },
+    {
+      "approved_intake": 60,
+      "code": "ECE",
+      "discipline_group": "Engineering",
+      "duration_years": 4,
+      "institution_code": "SYN-KA-004",
+      "level": "UG",
+      "name": "B.Tech Electronics & Communication",
+      "shift": "1"
+    },
+    {
+      "approved_intake": 60,
+      "code": "ECE",
+      "discipline_group": "Engineering",
+      "duration_years": 4,
+      "institution_code": "SYN-KA-005",
+      "level": "UG",
+      "name": "B.Tech Electronics & Communication",
+      "shift": "1"
+    },
+    {
+      "approved_intake": 72,
+      "code": "MEC",
+      "discipline_group": "Engineering",
+      "duration_years": 4,
+      "institution_code": "SYN-KA-005",
+      "level": "UG",
+      "name": "B.Tech Mechanical Engineering",
+      "shift": "1"
+    },
+    {
+      "approved_intake": 66,
+      "code": "CSE",
+      "discipline_group": "Engineering",
+      "duration_years": 4,
+      "institution_code": "SYN-KA-005",
+      "level": "UG",
+      "name": "B.Tech Computer Science & Engineering",
+      "shift": "1"
+    },
+    {
+      "approved_intake": 66,
+      "code": "MEC",
+      "discipline_group": "Engineering",
+      "duration_years": 4,
+      "institution_code": "SYN-KA-006",
+      "level": "UG",
+      "name": "B.Tech Mechanical Engineering",
+      "shift": "1"
+    },
+    {
+      "approved_intake": 54,
+      "code": "CSE",
+      "discipline_group": "Engineering",
+      "duration_years": 4,
+      "institution_code": "SYN-KA-006",
+      "level": "UG",
+      "name": "B.Tech Computer Science & Engineering",
+      "shift": "1"
+    },
+    {
+      "approved_intake": 54,
+      "code": "CIV",
+      "discipline_group": "Engineering",
+      "duration_years": 4,
+      "institution_code": "SYN-KA-006",
+      "level": "UG",
+      "name": "B.Tech Civil Engineering",
+      "shift": "1"
+    },
+    {
+      "approved_intake": 66,
+      "code": "CIV",
+      "discipline_group": "Engineering",
+      "duration_years": 4,
+      "institution_code": "SYN-TN-007",
+      "level": "UG",
+      "name": "B.Tech Civil Engineering",
+      "shift": "1"
+    },
+    {
+      "approved_intake": 66,
+      "code": "CSE",
+      "discipline_group": "Engineering",
+      "duration_years": 4,
+      "institution_code": "SYN-TN-007",
+      "level": "UG",
+      "name": "B.Tech Computer Science & Engineering",
+      "shift": "1"
+    },
+    {
+      "approved_intake": 72,
+      "code": "AIML",
+      "discipline_group": "Engineering",
+      "duration_years": 4,
+      "institution_code": "SYN-TN-008",
+      "level": "UG",
+      "name": "B.Tech Artificial Intelligence & ML",
+      "shift": "1"
+    },
+    {
+      "approved_intake": 54,
+      "code": "MEC",
+      "discipline_group": "Engineering",
+      "duration_years": 4,
+      "institution_code": "SYN-TN-008",
+      "level": "UG",
+      "name": "B.Tech Mechanical Engineering",
+      "shift": "1"
+    },
+    {
+      "approved_intake": 72,
+      "code": "CSE",
+      "discipline_group": "Engineering",
+      "duration_years": 4,
+      "institution_code": "SYN-TN-008",
+      "level": "UG",
+      "name": "B.Tech Computer Science & Engineering",
+      "shift": "1"
+    },
+    {
+      "approved_intake": 60,
+      "code": "CSE",
+      "discipline_group": "Engineering",
+      "duration_years": 4,
+      "institution_code": "SYN-TN-009",
+      "level": "UG",
+      "name": "B.Tech Computer Science & Engineering",
+      "shift": "1"
+    },
+    {
+      "approved_intake": 54,
+      "code": "ECE",
+      "discipline_group": "Engineering",
+      "duration_years": 4,
+      "institution_code": "SYN-TN-009",
+      "level": "UG",
+      "name": "B.Tech Electronics & Communication",
+      "shift": "1"
+    },
+    {
+      "approved_intake": 54,
+      "code": "MEC",
+      "discipline_group": "Engineering",
+      "duration_years": 4,
+      "institution_code": "SYN-TN-009",
+      "level": "UG",
+      "name": "B.Tech Mechanical Engineering",
+      "shift": "1"
+    },
+    {
+      "approved_intake": 54,
+      "code": "ECE",
+      "discipline_group": "Engineering",
+      "duration_years": 4,
+      "institution_code": "SYN-UP-010",
+      "level": "UG",
+      "name": "B.Tech Electronics & Communication",
+      "shift": "1"
+    },
+    {
+      "approved_intake": 60,
+      "code": "CIV",
+      "discipline_group": "Engineering",
+      "duration_years": 4,
+      "institution_code": "SYN-UP-010",
+      "level": "UG",
+      "name": "B.Tech Civil Engineering",
+      "shift": "1"
+    },
+    {
+      "approved_intake": 72,
+      "code": "CSE",
+      "discipline_group": "Engineering",
+      "duration_years": 4,
+      "institution_code": "SYN-UP-011",
+      "level": "UG",
+      "name": "B.Tech Computer Science & Engineering",
+      "shift": "1"
+    },
+    {
+      "approved_intake": 66,
+      "code": "CIV",
+      "discipline_group": "Engineering",
+      "duration_years": 4,
+      "institution_code": "SYN-UP-011",
+      "level": "UG",
+      "name": "B.Tech Civil Engineering",
+      "shift": "1"
+    },
+    {
+      "approved_intake": 60,
+      "code": "ECE",
+      "discipline_group": "Engineering",
+      "duration_years": 4,
+      "institution_code": "SYN-UP-011",
+      "level": "UG",
+      "name": "B.Tech Electronics & Communication",
+      "shift": "1"
+    },
+    {
+      "approved_intake": 66,
+      "code": "MEC",
+      "discipline_group": "Engineering",
+      "duration_years": 4,
+      "institution_code": "SYN-UP-012",
+      "level": "UG",
+      "name": "B.Tech Mechanical Engineering",
+      "shift": "1"
+    },
+    {
+      "approved_intake": 54,
+      "code": "MBA",
+      "discipline_group": "Management",
+      "duration_years": 2,
+      "institution_code": "SYN-UP-012",
+      "level": "PG",
+      "name": "Master of Business Administration",
+      "shift": "1"
+    },
+    {
+      "approved_intake": 60,
+      "code": "ECE",
+      "discipline_group": "Engineering",
+      "duration_years": 4,
+      "institution_code": "SYN-UP-012",
+      "level": "UG",
+      "name": "B.Tech Electronics & Communication",
+      "shift": "1"
+    }
+  ],
+  "seed": 42,
+  "seeded": {
+    "anomalous_institutions": [
+      "SYN-MH-003",
+      "SYN-TN-008",
+      "SYN-UP-012"
+    ],
+    "category_inconsistencies": 10,
+    "category_skew_institution": [
+      "SYN-UP-012"
+    ],
+    "cross_institution_flaggable_pairs": 30,
+    "cross_institution_pairs": 35,
+    "fuzzy_duplicates": 8,
+    "implausible_dates": 25,
+    "in_file_duplicates": 40,
+    "malformed_apaar": 150,
+    "missing_apaar": 60,
+    "over_intake": [
+      {
+        "approved_intake": 72,
+        "excess": 12,
+        "institution_code": "SYN-KA-005",
+        "programme_code": "MEC",
+        "regular_admitted": 84
+      },
+      {
+        "approved_intake": 54,
+        "excess": 16,
+        "institution_code": "SYN-MH-001",
+        "programme_code": "MEC",
+        "regular_admitted": 70
+      },
+      {
+        "approved_intake": 54,
+        "excess": 12,
+        "institution_code": "SYN-UP-010",
+        "programme_code": "ECE",
+        "regular_admitted": 66
+      }
+    ],
+    "pending_declined": 40,
+    "shared_phone_institution": [
+      "SYN-TN-008"
+    ],
+    "supernumerary_breach": [
+      {
+        "admitted": 9,
+        "approved_intake": 54,
+        "cap_pct_assumed": 10,
+        "cap_seats": 5,
+        "excess": 4,
+        "institution_code": "SYN-MH-002",
+        "programme_code": "ECE"
+      },
+      {
+        "admitted": 9,
+        "approved_intake": 66,
+        "cap_pct_assumed": 10,
+        "cap_seats": 6,
+        "excess": 3,
+        "institution_code": "SYN-TN-007",
+        "programme_code": "CSE"
+      }
+    ],
+    "unknown_apaar": 10,
+    "whitelisted_pairs": 5
+  },
+  "totals": {
+    "expected_accepted_rows": 1502,
+    "expected_enrolments": 1462,
+    "expected_rejected_rows": 150,
+    "expected_repeated_rows": 40,
+    "institutions": 12,
+    "programmes": 32,
+    "rows_written": 1652
+  }
+}

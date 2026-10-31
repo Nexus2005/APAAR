@@ -1,0 +1,89 @@
+# APAAR-Setu policy configuration
+# EVERY value here is an ASSUMPTION unless status: confirmed.
+# A human must verify each number against the AICTE Approval Process Handbook
+# for the relevant academic year before this is used for any real decision.
+version: 1
+effective_from: "2026-06-01"
+status: assumption
+source: "AICTE Approval Process Handbook — values pending human confirmation"
+academic_year: "2026-27"
+
+apaar:
+  format_regex: '^\d{12}$'
+  format_status: assumption
+  format_source: "Public description of APAAR as a 12-digit identifier — confirm with ABC"
+  status_values: [provided, pending, declined]
+
+admission_window:
+  start: "2026-06-01"
+  end: "2026-11-30"
+  status: assumption
+  source: "APH indicative admission window — confirm"
+
+intake:
+  count_regular_against_approved: true
+  seat_categories:
+    regular:
+      label: "Regular"
+      counts_against_approved: true
+      cap_pct_of_approved: null
+      status: confirmed_for_counting
+      source: "Regular seats are the approved intake"
+    supernumerary:
+      label: "Supernumerary"
+      counts_against_approved: false
+      # 10% is a DEMO assumption so the cap workflow can be exercised end-to-end.
+      cap_pct_of_approved: 10
+      status: assumption
+      source: "APH supernumerary ceiling — pending confirmation"
+    nri:
+      label: "NRI"
+      counts_against_approved: false
+      cap_pct_of_approved: 5
+      status: assumption
+      source: "APH NRI ceiling — pending confirmation"
+    oci:
+      label: "OCI"
+      counts_against_approved: false
+      cap_pct_of_approved: 5
+      status: assumption
+      source: "APH OCI ceiling — pending confirmation"
+    fn:
+      label: "Foreign National"
+      counts_against_approved: false
+      cap_pct_of_approved: 5
+      status: assumption
+      source: "APH foreign-national ceiling — pending confirmation"
+    tfw:
+      label: "Tuition Fee Waiver"
+      counts_against_approved: false
+      cap_pct_of_approved: null
+      status: assumption
+      source: "APH TFW ceiling — not configured; engine will emit INFO, never guess"
+
+duplicates:
+  overlap_months_threshold: 1
+  whitelist_pairs:
+    - approved_dual_degree
+    - sequential_programmes
+
+fuzzy:
+  name_threshold: 90
+  require_dob_match: true
+
+discipline_timezone: "Asia/Kolkata"
+
+anomaly:
+  contamination: 0.1
+  min_institutions: 8
+  # Share of admissions in the final 7 days of the admission window above which
+  # the feature is described as a spike in the plain-language reason.
+  last_week_spike_share: 0.3
+
+privacy:
+  mask_apaar: "XXXX-XXXX-####"
+  consent_ttl_minutes: 15
+
+uploads:
+  max_bytes: 5242880
+  max_rows: 20000
